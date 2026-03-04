@@ -1,22 +1,22 @@
 class Ccworktime < Formula
   desc "Calculate work time from Claude Code session logs"
   homepage "https://github.com/ShahadIshraq/ccworktime"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-darwin-arm64.tar.gz"
-      sha256 "4bc2c064911753f96c0aa555ee352a967dd3977c15080a3128385edbba2d68f8"
+      url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.4/ccworktime-darwin-arm64.tar.gz"
+      sha256 "b9fe21520fbf62a9517df17385fbd6d7549ba4575dfaa6ea8885b21b57d94abc"
     else
-      url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-darwin-x64.tar.gz"
-      sha256 "078a299029db9ba89faed5ecdc53ba4339d68f20b5a9e3c00a496c76686baca0"
+      url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.4/ccworktime-darwin-x64.tar.gz"
+      sha256 "96f9afa745d10eb6c2a70e54fd907d3ed1910fcbaf4e5535b5e73908a43b628f"
     end
   end
 
   on_linux do
-    url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-linux-x64.tar.gz"
-    sha256 "82bd7b8476cc9f9b83fc4f25cc05642267d768ff58c0944fa9451291bad0f181"
+    url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.4/ccworktime-linux-x64.tar.gz"
+    sha256 "c09a61f7a104c1d647b084c4dec43d989bdfdbe02b2ddeb2ca5d00e55f5da53e"
   end
 
   def install
