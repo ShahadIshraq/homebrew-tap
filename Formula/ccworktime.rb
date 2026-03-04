@@ -7,16 +7,16 @@ class Ccworktime < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-darwin-arm64.tar.gz"
-      sha256 "e32c8b8254880d55b908decfb23573077986bf7ea4f16fdb9670e7790aa4ff2f"
+      sha256 "4bc2c064911753f96c0aa555ee352a967dd3977c15080a3128385edbba2d68f8"
     else
       url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-darwin-x64.tar.gz"
-      sha256 "1756b753a21c32165a6e19a14316895c68663a72caec8832102c344301561018"
+      sha256 "078a299029db9ba89faed5ecdc53ba4339d68f20b5a9e3c00a496c76686baca0"
     end
   end
 
   on_linux do
     url "https://github.com/ShahadIshraq/ccworktime/releases/download/v0.0.3/ccworktime-linux-x64.tar.gz"
-    sha256 "8694e84a6722c281e574a522e52ba3d826064378e9c07930251e2c16991f4adb"
+    sha256 "82bd7b8476cc9f9b83fc4f25cc05642267d768ff58c0944fa9451291bad0f181"
   end
 
   def install
